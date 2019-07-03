@@ -7,13 +7,13 @@ import (
 )
 
 func SetupRouter() *gin.Engine {
-	r := gin.Default()
-	r.LoadHTMLFiles("web/index.html")
-	r.GET("/", func(c *gin.Context) {
+	router := gin.Default()
+	router.LoadHTMLFiles("web/index.html")
+	router.GET("/", func(c *gin.Context) {
 		c.HTML(http.StatusOK, "index.html", gin.H{
 			"title": "hello world",
 		})
 	})
 
-	return r
+	return router
 }
