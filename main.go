@@ -1,15 +1,10 @@
 package main
 
 import (
-	"github.com/gin-gonic/gin"
+	router "github.com/hiroya8649/gomysite/web"
 )
 
 func main() {
-	r := gin.Default()
-	r.GET("/", func(c *gin.Context) {
-		c.JSON(200, gin.H{
-			"message": "hello world",
-		})
-	})
+	r := router.SetupRouter()
 	r.Run() // listen and serve on 0.0.0.0:8080
 }
