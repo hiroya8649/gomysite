@@ -1,0 +1,8 @@
+{
+  "name": "gomysite",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/hiroya8649/gomysite",
+  "author": "hiroya8649 <happy8649@gmail.com>",
+  "license": "MIT"
+}
