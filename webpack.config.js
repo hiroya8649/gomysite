@@ -11,10 +11,10 @@ module.exports = () => ({
       new OptimizeCSSAssetsPlugin({}),
     ],
   },
-  entry: ['@babel/polyfill', path.resolve(__dirname, './static/index.jsx')],
+  entry: ['@babel/polyfill', path.resolve(__dirname, './web/static/index.jsx')],
   output: {
-    filename: 'app.js',
-    path: path.resolve(__dirname, '../priv/static/js'),
+    filename: 'bundle.js',
+    path: path.resolve(__dirname, './priv'),
   },
   module: {
     rules: [
@@ -38,6 +38,6 @@ module.exports = () => ({
     extensions: ['.js', '.jsx', '.sass', '.scss'],
   },
   plugins: [
-    new MiniCssExtractPlugin({ filename: '../css/app.css' }),
+    new MiniCssExtractPlugin({ filename: './css/app.css' }),
   ],
 });
