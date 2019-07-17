@@ -8,10 +8,10 @@ import (
 
 type pageController struct{}
 
-var instance = &pageController{}
+var pageControllerInstance = &pageController{}
 
 func PageController() *pageController {
-	return instance
+	return pageControllerInstance
 }
 
 func (pageController) Index(c *gin.Context) {
