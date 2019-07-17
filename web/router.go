@@ -9,6 +9,7 @@ import (
 func SetupRouter() *gin.Engine {
 	router := gin.Default()
 
+	router.Static("/priv", "./priv")
 	router.LoadHTMLFiles("web/index.html")
 	router.GET("/", c.PageController().Index)
 
