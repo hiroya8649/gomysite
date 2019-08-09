@@ -15,7 +15,5 @@ func PageController() *pageController {
 }
 
 func (pageController) Index(c *gin.Context) {
-	c.HTML(http.StatusOK, "index.html", gin.H{
-		"title": "hello world",
-	})
+	c.HTML(http.StatusOK, "index.html", gin.H{})
 }
