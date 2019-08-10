@@ -1,3 +1,61 @@
+@import "bootstrap/scss/bootstrap";
+$explain-grey: #787373;
+$border-color: #5eb9bb;
+.page {
+  padding: 20px 0px 20px 0px;
+}
+.name-container {
+  display: table;
+  height: 72px;
+}
+
+.name {
+  display: table-cell;
+  vertical-align: middle;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.birthday {}
+
+.title {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 24px;
+  border-bottom: medium solid $border-color;
+}
+
+.subtitle {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.desc {
+  font-size: 16px;
+}
+
 .explain {
-  color: rgba(99, 92, 92, 0.605);
+  font-size: 16px;
+  color: $explain-grey;
+}
+.explain::before {
+  content: "↳ ";
+}
+
+.skill {
+  @extend .badge;
+  @extend .badge-info;
+  font-size: 18px;
+}
+
+.skill-list .subtitle{
+  padding: 0px 5px;
+  margin: 10px 0px 7px 0px;
+  border: 1px solid $border-color;
+}
+
+.point {
+  @extend .progress;
+  margin-bottom: 8px;
 }
