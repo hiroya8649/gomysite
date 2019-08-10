@@ -38,6 +38,6 @@ module.exports = () => ({
     extensions: ['.js', '.jsx', '.sass', '.scss'],
   },
   plugins: [
-    new MiniCssExtractPlugin({ filename: './css/app.css' }),
+    new MiniCssExtractPlugin({ filename: './bundle.css' }),
   ],
 });
