@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Resume from '@/resume';
 
 ReactDOM.render(
-  <div>Hello React!</div>,
+  <Resume />,
   document.getElementById('root')
 );
