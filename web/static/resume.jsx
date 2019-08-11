@@ -37,7 +37,7 @@ export default class Resume extends Component {
             <div className="subtitle">National Taiwan University of Science and Technology (台灣科技大學)</div>
             <div className="desc">Bachelor of Computer Science and Information Engineering</div>
             <div className="explain">2015.09 - 2019.08</div>
-            <div className="subtitle">Shibaura Institute of Technology (日本 芝浦工業大学)</div>
+            <div className="subtitle">Shibaura Institute of Technology (日本芝浦工業大学)</div>
             <div className="desc">As an exchange student</div>
             <div className="explain">2019.04 - 2019.08</div>
 
