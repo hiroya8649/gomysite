@@ -32,3 +32,6 @@
 [[constraint]]
   name = "github.com/gin-gonic/gin"
   version = "1.4.0"
+
+[metadata.heroku]
+  root-package = "github.com/hiroya8649/gomysite"
