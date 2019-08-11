@@ -44,9 +44,8 @@ export default class Resume extends Component {
             <div className="title">What are used in this resume</div>
             <div className="desc">Backend: Golang, Gin</div>
             <div className="desc">Frontend: React, Webpack, Scss, Bootstrap</div>
-            <div className="desc">Deployed on Heroku.</div>
-            <div className="desc">The format and design are all made by myself.</div>
-            <div className="desc">Repository is <a href="https://github.com/hiroya8649/gomysite">here</a>.</div>
+            <div className="desc">Deployed on <a href="https://hiroya-resume.herokuapp.com/">Heroku</a>.</div>
+            <div className="desc">Github repository is <a href="https://github.com/hiroya8649/gomysite">here</a>.</div>
           </div>
           <div className="col-sm-4 skill-list">
             <div className="title">Skill</div>
