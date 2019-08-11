@@ -28,7 +28,7 @@ export default class Resume extends Component {
             <div className="explain">2018.10 - 2019.02</div>
             <div className="subtitle">QA Engineer (Intern)</div>
             <div className="desc">Umbo Computer Vision Inc.</div>
-            <div className="explain">2018.06 - 2019.08</div>
+            <div className="explain">2018.06 - 2018.08</div>
             <div className="subtitle">Japanese Translator (Part Time)</div>
             <div className="desc">Taiwan G2 Corporation</div>
             <div className="explain">2017.07 - 2018.12</div>
