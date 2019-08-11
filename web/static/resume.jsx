@@ -7,10 +7,10 @@ export default class Resume extends Component {
       <div className="container">
         <div className="row">
           <div className="col-sm-5 name-container">
-            <p className="name">TSUHAO CHANG</p>
+            <p className="name">TSUHAO CHANG (張 祖浩)</p>
           </div>
           <div className="col-sm-7">
-            <div className="birthday">&#x1F382; 1997-04-09 (22)</div>
+            <div className="birthday">&#x1F382; 1997-04-09 (Male)</div>
             <div className="phone">&#x1F4F1; 0987-041-849</div>
             <div className="email">&#x2709; 1loya4wk@gmail.com</div>
           </div>
@@ -18,7 +18,7 @@ export default class Resume extends Component {
         <div className="row">
           <div className="col-sm-8">
             <div className="title">Profile</div>
-            <div className="desc">My name is Roy, was born and now living in Taiwan. I just finished my studying in National Taiwan University of Science and Technology (台灣科技大學) as a Bachelor. Had lived in Japan for half a year and worked as a part time web engineer when I study in Shibaura Institute of Technology (芝浦工業大学) there as an exchange student. Now I decide to continue my studying from next year. Before that, I would like to find some place to learn about GO, AWS, GCP and other knowledge to improve my skills.</div>
+            <div className="desc">My name is Roy, was born and now living in Taiwan. I just finished my studying in National Taiwan University of Science and Technology (台灣科技大學) as a Bachelor. Had lived in Japan for half a year and worked as a part time web engineer when I studied in Shibaura Institute of Technology (芝浦工業大学) as an exchange student. Now I decide to continue my studying from next year. Before that, I would like to find some place to learn about GO, AWS, GCP and others to improve my skills.</div>
             <div className="title">Experience</div>
             <div className="subtitle">Backend & Frontend Developer (Part Time)</div>
             <div className="desc">ACCESS CO. LTD. (in Tokyo)</div>
