@@ -21,7 +21,7 @@ export default class Resume extends Component {
             <div className="desc">My name is Roy, was born and now living in Taiwan. I just finished my studying in National Taiwan University of Science and Technology (台灣科技大學) as a Bachelor. Had lived in Japan for half a year and worked as a part time web engineer when I study in Shibaura Institute of Technology (芝浦工業大学) there as an exchange student. Now I decide to continue my studying from next year. Before that, I would like to find some place to learn about GO, AWS, GCP and other knowledge to improve my skills.</div>
             <div className="title">Experience</div>
             <div className="subtitle">Backend & Frontend Developer (Part Time)</div>
-            <div className="desc">ACCESS CO. LTD. (in Akihabara)</div>
+            <div className="desc">ACCESS CO. LTD. (in Tokyo)</div>
             <div className="explain">2019.04 - 2019.07</div>
             <div className="subtitle">Backend & Frontend Developer (Intern)</div>
             <div className="desc">ACCESS CO. LTD. (in Taipei)</div>
@@ -37,15 +37,15 @@ export default class Resume extends Component {
             <div className="subtitle">National Taiwan University of Science and Technology (台灣科技大學)</div>
             <div className="desc">Bachelor of Computer Science and Information Engineering</div>
             <div className="explain">2015.09 - 2019.08</div>
-            <div className="subtitle">Shibaura Institute of Technology</div>
+            <div className="subtitle">Shibaura Institute of Technology (日本 芝浦工業大学)</div>
             <div className="desc">As an exchange student</div>
             <div className="explain">2019.04 - 2019.08</div>
 
-            <div className="title">What is used in this resume</div>
+            <div className="title">What are used in this resume</div>
             <div className="desc">Backend: Golang, Gin</div>
             <div className="desc">Frontend: React, Webpack, Scss, Bootstrap</div>
             <div className="desc">Deployed on Heroku.</div>
-            <div className="desc">The format and design are all by myself.</div>
+            <div className="desc">The format and design are all made by myself.</div>
             <div className="desc">Repository is <a href="https://github.com/hiroya8649/gomysite">here</a>.</div>
           </div>
           <div className="col-sm-4 skill-list">
@@ -75,7 +75,7 @@ export default class Resume extends Component {
               <div className="point">
                 <div className="progress-bar" style={{ width: "90%" }}>９</div>
               </div>
-              <div className="skill">Backend Framework</div>
+              <div className="skill">Backend Development</div>
               <div className="explain">Laravel, Phoenix, Gin...</div>
               <div className="point">
                 <div className="progress-bar" style={{ width: "80%" }}>８</div>
@@ -90,7 +90,7 @@ export default class Resume extends Component {
               <div className="point">
                 <div className="progress-bar" style={{ width: "80%" }}>８</div>
               </div>
-              <div className="skill">Frontend Knowledge</div>
+              <div className="skill">Frontend Development</div>
               <div className="explain">React, Redux, Webpack...</div>
               <div className="point">
                 <div className="progress-bar" style={{ width: "60%" }}>６</div>
