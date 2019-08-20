@@ -22,7 +22,7 @@ export default class Resume extends Component {
             <div className="title">Profile</div>
             <div className="desc">我是張祖浩，生於台灣。2019年8月於台灣科技大學資工系學士畢業。剛經歷過半年於日本芝浦工大的留學，同時於東京一家公司兼職Web開發工程師後，決定繼續回台攻讀碩士。在入學前，想先尋找約半年的實習機會，希望能主要學習AWS、GCP等雲端平台，以及Golang、Nodejs等技術或語言及其相關框架充實自己。</div>
             <p />
-            <div className="desc">My name is Roy, was born and now living in Taiwan. I just finished my studying in National Taiwan University of Science and Technology (台灣科技大學) as a Bachelor. Had lived in Japan for half a year and worked as a part time web engineer when I studied in Shibaura Institute of Technology (芝浦工業大学) as an exchange student. Now I decide to continue my studying from next year. Before that, I would like to find some place to learn mainly about AWS, GCP cloud platform, and others like Golang, Nodejs to improve my skills.</div>
+            <div className="desc">My name is Roy, was born and now living in Taiwan. I just finished my studying in National Taiwan University of Science and Technology as a Bachelor. Had lived in Japan for half a year and worked as a part time web engineer when I studied in Shibaura Institute of Technology as an exchange student. Now I decide to continue my studying from next year. Before that, I would like to find some place to learn mainly about AWS, GCP cloud platform, and others like Golang, Nodejs to improve my skills.</div>
             <div className="title">Experience</div>
             <div className="subtitle">Backend & Frontend Developer (Part Time)</div>
             <div className="desc">ACCESS CO. LTD. (in Tokyo)</div>
