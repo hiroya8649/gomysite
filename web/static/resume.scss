@@ -2,11 +2,19 @@
 $explain-grey: #787373;
 $border-color: #5eb9bb;
 .page {
+  font-family: monospace;
   padding: 1.250em 0em 1.250em 0em;
+  font-size: 18px;
 }
+
 .name-container {
   display: table;
   height: 4.500em;
+}
+
+.fa-icon {
+  display: inline-block;
+	width: 1em;
 }
 
 .name {
