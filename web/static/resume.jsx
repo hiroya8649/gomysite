@@ -6,19 +6,19 @@ export default class Resume extends Component {
     return <div className="page">
       <div className="container">
         <div className="row">
-          <div className="col-sm-5 name-container">
+          <div className="col-xl-5 name-container">
             <p className="name">TSUHAO CHANG (張 祖浩)</p>
           </div>
-          <div className="col-sm-7">
+          <div className="col-xl-7">
             <div className="birthday">&#x1F382; 1997-04-09 (Male)</div>
             <div className="phone">&#x1F4F1; 0987-041-849</div>
             <div className="email">&#x2709; 1loya4wk@gmail.com</div>
           </div>
         </div>
         <div className="row">
-          <div className="col-sm-8">
+          <div className="col-xl-8">
             <div className="title">Profile</div>
-            <div className="desc">My name is Roy, was born and now living in Taiwan. I just finished my studying in National Taiwan University of Science and Technology (台灣科技大學) as a Bachelor. Had lived in Japan for half a year and worked as a part time web engineer when I studied in Shibaura Institute of Technology (芝浦工業大学) as an exchange student. Now I decide to continue my studying from next year. Before that, I would like to find some place to learn about GO, AWS, GCP and others to improve my skills.</div>
+            <div className="desc">My name is Roy, was born and now living in Taiwan. I just finished my studying in National Taiwan University of Science and Technology (台灣科技大學) as a Bachelor. Had lived in Japan for half a year and worked as a part time web engineer when I studied in Shibaura Institute of Technology (芝浦工業大学) as an exchange student. Now I decide to continue my studying from next year. Before that, I would like to find some place to learn mainly about AWS, GCP cloud platform, and others like Golang, Nodejs to improve my skills.</div>
             <div className="title">Experience</div>
             <div className="subtitle">Backend & Frontend Developer (Part Time)</div>
             <div className="desc">ACCESS CO. LTD. (in Tokyo)</div>
@@ -47,7 +47,7 @@ export default class Resume extends Component {
             <div className="desc">Deployed on <a href="https://hiroya-resume.herokuapp.com/">Heroku</a>.</div>
             <div className="desc">Github repository is <a href="https://github.com/hiroya8649/gomysite">here</a>.</div>
           </div>
-          <div className="col-sm-4 skill-list">
+          <div className="col-xl-4 skill-list">
             <div className="title">Skill</div>
             <div>
               <div className="subtitle">Language</div>
