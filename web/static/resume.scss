@@ -2,39 +2,39 @@
 $explain-grey: #787373;
 $border-color: #5eb9bb;
 .page {
-  padding: 20px 0px 20px 0px;
+  padding: 1.250em 0em 1.250em 0em;
 }
 .name-container {
   display: table;
-  height: 72px;
+  height: 4.500em;
 }
 
 .name {
   display: table-cell;
   vertical-align: middle;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 1.875em;
 }
 
 .title {
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 0.313em;
+  margin-bottom: 0.313em;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 1.500em;
   border-bottom: medium solid $border-color;
 }
 
 .subtitle {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1.250em;
 }
 
 .desc {
-  font-size: 16px;
+  font-size: 1.000em;
 }
 
 .explain {
-  font-size: 16px;
+  font-size: 1.000em;
   color: $explain-grey;
 }
 .explain::before {
@@ -44,16 +44,16 @@ $border-color: #5eb9bb;
 .skill {
   @extend .badge;
   @extend .badge-info;
-  font-size: 18px;
+  font-size: 1.125em;
 }
 
 .skill-list .subtitle{
-  padding: 0px 5px;
-  margin: 10px 0px 7px 0px;
-  border: 1px solid $border-color;
+  padding: 0em 0.313em;
+  margin: 0.625em 0em 0.438em 0em;
+  border: 0.063em solid $border-color;
 }
 
 .point {
   @extend .progress;
-  margin-bottom: 8px;
+  margin-bottom: 0.5em;
 }
