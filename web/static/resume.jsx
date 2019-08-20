@@ -8,20 +8,24 @@ export default class Resume extends Component {
     return <div className="page">
       <div className="container">
         <div className="row">
-          <div className="col-lg-5 name-container">
-            <p className="name">TSUHAO CHANG (張 祖浩)</p>
+          <div className="col-md-5 top-container">
+            <div className="name">TSUHAO CHANG<br />張 祖浩</div>
           </div>
-          <div className="col-lg-7">
-            <span className="fa-icon"><FontAwesomeIcon icon="birthday-cake" /></span> 1997-04-09 (Male)<div />
-            <span className="fa-icon"><FontAwesomeIcon icon="phone" /></span> 0987-041-849<div />
-            <span className="fa-icon"><FontAwesomeIcon icon="envelope" /></span> 1loya4wk@gmail.com
+          <div className="col-md-7 top-container">
+            <div>
+              <span className="fa-icon"><FontAwesomeIcon icon="birthday-cake" /></span> 1997-04-09 (Male)
+            <br />
+              <span className="fa-icon"><FontAwesomeIcon icon="phone" /></span> 0987-041-849
+            <br />
+              <span className="fa-icon"><FontAwesomeIcon icon="envelope" /></span> 1loya4wk@gmail.com
+            </div>
           </div>
         </div>
         <div className="row">
-          <div className="col-lg-8">
+          <div className="col-md-8">
             <div className="title">Profile</div>
             <div className="desc">我是張祖浩，生於台灣。2019年8月於台灣科技大學資工系學士畢業。剛經歷過半年於日本芝浦工大的留學，同時於東京一家公司兼職Web開發工程師後，決定繼續回台攻讀碩士。在入學前，想先進行約半年的實習，希望能主要學習AWS、GCP等雲端平台，以及Golang、Nodejs等技術或語言及其相關框架充實自己。</div>
-            <p />
+            <br />
             <div className="desc">My name is Roy, was born and now living in Taiwan. I just finished my studying in National Taiwan University of Science and Technology as a Bachelor. Had lived in Japan for half a year and worked as a part time web engineer when I studied in Shibaura Institute of Technology as an exchange student. Now I decide to continue my studying from next year. Before that, I would like to find some place to learn mainly about AWS, GCP cloud platform, and others like Golang, Nodejs to improve my skills.</div>
             <div className="title">Experience</div>
             <div className="subtitle">Backend & Frontend Developer (Part Time)</div>
@@ -51,7 +55,7 @@ export default class Resume extends Component {
             <div className="desc">Deployed on <a href="https://hiroya-resume.herokuapp.com/">Heroku</a>.</div>
             <div className="desc">Github repository is <a href="https://github.com/hiroya8649/gomysite">here</a>.</div>
           </div>
-          <div className="col-lg-4 skill-list">
+          <div className="col-md-4 skill-list">
             <div className="title">Skill</div>
             <div>
               <div className="subtitle">Language</div>

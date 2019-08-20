@@ -2,14 +2,14 @@
 $explain-grey: #787373;
 $border-color: #5eb9bb;
 .page {
-  font-family: monospace;
   padding: 1.250em 0em 1.250em 0em;
   font-size: 18px;
+  font-family: monospace;
 }
 
-.name-container {
-  display: table;
-  height: 4.500em;
+.top-container {
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .fa-icon {
@@ -18,8 +18,6 @@ $border-color: #5eb9bb;
 }
 
 .name {
-  display: table-cell;
-  vertical-align: middle;
   font-weight: bold;
   font-size: 1.875em;
 }
